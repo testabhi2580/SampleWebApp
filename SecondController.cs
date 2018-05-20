@@ -15,14 +15,14 @@ namespace SampleWebApp
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "value1"};
+            return new string[] { "value1","value2"};
         }
 
         // GET api/<controller>/5
         [HttpGet("{id}")]
         public string Get(int id)
         {
-            return "value";
+            return "test";
         }
 
 
