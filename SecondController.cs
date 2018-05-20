@@ -25,11 +25,6 @@ namespace SampleWebApp
             return "value";
         }
 
-        // POST api/<controller>
-        [HttpPost]
-        public void Post([FromBody]string value)
-        {
-        }
 
         // PUT api/<controller>/5
         [HttpPut("{id}")]
