@@ -15,7 +15,7 @@ namespace SampleWebApp
         [HttpGet("{id}")]
         public string Get(int id)
         {
-            return "Getting id";
+            return "Getting id1";
         }
 
        
