@@ -20,7 +20,7 @@ namespace SampleWebApp
         [HttpGet("{id}")]
         public string Get(int id)
         {
-            return "test";
+            return "test1";
         }
 
     }
