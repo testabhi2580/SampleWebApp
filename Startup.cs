@@ -18,8 +18,7 @@ namespace SampleWebApp
 
         public IConfiguration Configuration { get; }
 
-        
-        public void ConfigureServices(IServiceCollection services)
+         public void ConfigureServices(IServiceCollection services)
         {
             // Adding MVC framework here
             services.AddMvc();
